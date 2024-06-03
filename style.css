@@ -1,0 +1,291 @@
+body {
+  background-color: lightskyblue;
+}
+
+/*Home Page CSS*/
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(yellow, orange);
+  color: black;
+  height: 200px;
+}
+
+.web-title {
+  text-align: center;
+  margin-right: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px white;
+}
+
+.logo img {
+  margin-left: 80px;
+  width: 180px;
+  height: 180px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient( lightgreen, lime);
+  padding: 10px 10px;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  font-size: 25px;
+  padding-right: 30px;
+}
+
+.nav-link:hover {
+  background-color: lightseagreen;
+  border-radius: 5px;
+  padding: 5px 10px;
+  
+}
+
+nav ul li a {
+  display: inline;
+  text-decoration: none;
+}
+
+/*Home Section CSS*/
+.home-container {
+  display: flex;
+  background: linear-gradient(45deg, #2dfff5, lightgreen,yellowgreen, #fff878 );
+}
+
+.img-column, .text-column {
+  flex: 1;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.intro-title {
+  font-size: 100px;
+}
+
+.intro {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* About Section styling */
+#about {
+  padding: 5px;
+  background: linear-gradient(45deg, #2dfff5, lightgreen,yellowgreen, #fff878 );
+}
+
+.about-container {
+  margin: 15px;
+}
+
+#resume-btn {
+  width: 10%;
+  margin: 15px;
+  background: #4CAF50;
+}
+
+.info {
+  margin: 10px;
+
+}
+
+.skl-head {
+  margin: 10px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.abt-title {
+  margin: 10px;
+}
+
+.web-link {
+  text-decoration: none;
+  color: #111111;
+}
+
+.web-link:hover {
+  background: #4CAF50;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* Ends */
+
+/* Contact Section Styling*/
+#contact {
+  background: linear-gradient(45deg, #2dfff5, lightgreen,yellowgreen, #fff878 );
+  padding: 10px;
+
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.btn {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+iframe {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background:linear-gradient(180deg ,#4CAF50, lightgreen);
+  color: black;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit-btn {
+  width: 50%;
+}
+
+
+/* Footer Stying */
+.socialmed-title {
+  text-align: center;
+}
+
+.head-2, .spl-msg {
+  margin: 5px;
+  background-color: #4DE8F4;
+  text-align: center;
+  padding: 5px;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(#64e9ff, #34a5e7);
+  padding: 20px;
+}
+
+.footer-logo {
+  height: 130px;
+  width: 120px;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.footer-nav-links li a {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-column img {
+  height: 60px;
+  width: 50px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+}
+
+.fa, .fa-brands  {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.fa:hover, .fa-brands:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-instagram {
+  background: linear-gradient(45deg, purple, yellow);
+  color: white;
+}
+
+
+.fa-whatsapp {
+  background-color: limegreen;
+  color: white;
+}
+
+.fa-tiktok {
+  color: #111111;
+  filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+}
+
+.copyright {
+  text-align: center;
+  background-color: #333;
+  color: #f0f0f0;
+}
